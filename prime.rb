@@ -60,7 +60,7 @@ when 1
     puts ("計：" + output.size.to_s)
     puts ("処理完了")
 when 2
-    print ("因数分解する数字：")
+    print ("素因数分解する数字：")
     input = gets.to_i
     output = factorization (input)
     output.each do |key, value|
